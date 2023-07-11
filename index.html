@@ -18,19 +18,17 @@
 
     <header>
         <!-- Navbar -->
-        <nav class="relative">
-            <div class="flex items-center justify-between">
-                <!-- <div class="pt-2"> 
-                    <img class="h-[72px] sm:[h-35px] md:h-[50px]" src="/images/logos/rpmi-logo.png" alt="RPMI Logo"/>
-                </div> -->
-                <!-- <div class="hidden bg-[#6497B1] rounded-[15px] space-x-6 md:flex md:space-x-2">
-                    <a href="home.html" class="text-[20px] font-['ABeeZee'] text-[#031F4B] rounded-[15px] hover:bg-[#035B96] hover:text-white md:p-[5px] md:px-2 md:hover:px-3">Home</a>
-                    <a href="about-us.html" class="text-[20px] font-['ABeeZee'] text-[#031F4B] rounded-[15px] hover:bg-[#035B96] hover:text-white md:p-[5px] md:px-2 md:hover:px-3">About Us</a>
-                    <a href="services.html" class="text-[20px] font-['ABeeZee'] text-[#031F4B] rounded-[15px] hover:bg-[#035B96] hover:text-white md:p-[5px] md:px-2 md:hover:px-3">Services</a>
-                    <a href="projects.html" class="text-[20px] font-['ABeeZee'] text-[#031F4B] rounded-[15px] hover:bg-[#035B96] hover:text-white md:p-[5px] md:px-2 md:hover:px-3">Projects</a>
-                    <a href="careers.html" class="text-[20px] font-['ABeeZee'] text-[#031F4B] rounded-[15px] hover:bg-[#035B96] hover:text-white md:p-[5px] md:px-2 md:hover:px-3">Careers</a>
-                    <a href="contact-us.html" class="active text-[20px] font-['ABeeZee'] text-[#031F4B] rounded-[15px] hover:bg-[#035B96] hover:text-white md:p-[5px]  md:hover:px-3">Contact Us</a>
-                </div> -->
+        <nav class="relative z-10 w-full xl:max-w-[1160px] xl:mx-auto xl:py-5">
+            <div class="flex items-center justify-between md:p-3 md:mx-10">
+                <img class=" flex-none h-[72px]" src="/images/logos/rpmi-logo.png" alt="RPMI Logo"/>
+                <div class="hidden text-[20px] font-['ABeeZee'] text-white bg-[#6497B1] rounded-[15px] md:flex md:order-last">
+                    <a href="/" class="p-2 rounded-[15px] md:justify-end hover:bg-[#035B96] hover:text-white">Home</a>
+                    <a href="/about-us.html" class="p-2 rounded-[15px] md:justify-end hover:bg-[#035B96] hover:text-white">About Us</a>
+                    <a href="/services.html" class="p-2 rounded-[15px] md:justify-end hover:bg-[#035B96] hover:text-white">Services</a>
+                    <a href="/projects.html" class="p-2 rounded-[15px] md:justify-end hover:bg-[#035B96] hover:text-white">Projects</a>
+                    <a href="/careers.html" class="p-2 rounded-[15px] md:justify-end hover:bg-[#035B96] hover:text-white">Careers</a>
+                    <a href="/contact-us.html" class="active p-2 rounded-[15px] md:justify-end hover:bg-[#035B96] hover:text-white">Contact Us</a>
+                </div>
                 <!-- Hamburger Icon -->
                 <!-- <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
                 <span class="hamburger-top"></span>
@@ -53,104 +51,58 @@
 
     <main>
 
-        <!-- Banner -->
+        <!-- Banner -->       
         <section>
             <div
-                class="relative bg-[url('/images/pictures/homepage-img1.jpg')] bg-cover bg-no-repeat bg-center w-full h-[200px] md:h-[380px] lg:h-[646px]">
-                <!-- <div class="absolute top-0">
-                    <div class="text-[#031F4B] font-['franklin-gothic-bookregular'] xl:text-[400px]">                            
-                        <p>RPMI</p>
-                    </div>
-                    <div class="text-[#B3CDE0] font-['franklin-gothic-demiregular'] xl:text-[60px]">
-                        <h1>RP MAPPALA INCORPORATED</h1>
-                    </div>
-                    <div class="text-white font-['franklin-gothic-bookregular'] xl:text-[40px]">
-                        <p>We deliver. We care.</p>
-                    </div>
-                </div> -->
+                class="relative text-center bg-[url('/images/pictures/homepage-img1.jpg')] w-full bg-cover bg-no-repeat bg-center w-full h-[200px] md:h-[380px] lg:h-[480px] xl:h-[646px]">
+                <span class="absolute inset-x-0 text-[#031F4B] font-['franklin-gothic-bookregular'] top-[-30px] text-[130px] md:top-[-30px] md:text-[225px] lg:top-[-60px] lg:text-[280px] xl:top-[-115px] xl:text-[400px]">RPMI</span>
+                <h1 class="absolute inset-x-0 text-[#B3CDE0] font-['franklin-gothic-demiregular'] top-[65px] text-[20px] md:top-[130px] md:text-[35px] lg:top-[150px] lg:text-[42px] xl:top-[180px] xl:text-[60px]">RP MAPPALA INCORPORATED</h1>
+                <span class=" absolute inset-x-0 text-white font-['franklin-gothic-bookregular'] top-[115px] text-[20px] md:top-[210px] md:text-[30px] lg:top-[240px] lg:text-[35px] xl:top-[320px] xl:text-[40px]">We deliver. We care.</span>
             </div>
         </section>
 
         <!-- introductionabout RPMI -->
         <section>
-            <div class="m-10 md:m-20">
+            <h2 class="text-center text-[#031F4B] font-['franklin-gothic-demiregular'] m-10 lg:m-20 text-[20px] xl:text-[40px]">
+                ONE OF THE LEADING CONTRACTORS IN LEYTE PROVIDING UNPARALLELED MECHANICAL, CIVIL, STRUCTURAL,
+                ELECTRICAL AND INSTRUMENTATION SERVICES ACROSS VARIOUS INDUSTRIES
+            </h2>
+            <div
+                class="text-center text-[20px] grid gap-4 lg:grid-cols-2 lg:m-20">
                 <div
-                    class="text-center text-[#031F4B] font-['franklin-gothic-demiregular'] p-[30px] mx-auto xl:text-[30px] xl:max-w-[1098px]">
-                    <h2>
-                        ONE OF THE LEADING CONTRACTORS IN LEYTE PROVIDING UNPARALLELED MECHANICAL, CIVIL, STRUCTURAL,
-                        ELECTRICAL AND INSTRUMENTATION SERVICES ACROSS VARIOUS INDUSTRIES
-                    </h2>
+                    class="grid grid-cols-1 gap-4 text-[#031F4B] text-center font-['franklin-gothic-bookregular'] mx-10 xl:m-20 lg:text-right lg:justify-items-center">
+                    <h5 class="font-['franklin-gothic-demiregular'] text-center lg:text-[30px]">
+                        INNOVATION AND QUALITY SERVICE IS THE CORE OF WHAT WE DO
+                    </h5>
+                    <p>
+                        We constantly stay abreast of the latest advancements in engineering services, using the
+                        latest tools, equipments and methodologies to deliver efficient and sustainable solutions.
+                    </p>
+                    <p>
+                        Our commitment to innovation ensures that we stay ahead of the curve and provide our clients
+                        the output that exceeds expectations.
+                    </p>
+                    <a href="/about-us.html"
+                        class="w-fit flex items-center mx-auto space-x-2 text-[15px] lg:text-[18px] font-['franklin-gothic-demiregular'] bg-[#6497B1] rounded-[15px] pl-3">
+                        <span class="flex-1 text-left">Learn more about</span>
+                        <span
+                            class="flex-none uppercase text-white bg-[#035B96] rounded-[15px] py-1 px-3">RPMI</span>
+                    </a>
                 </div>
-                <div
-                    class="flex justify-center items-center w-full space-x-[60px] xs:space-x-0 xs:flex-col-reverse sm:space-x-[15px] md:space-x-[30px] lg:space-x-[45px]">
-                    <div
-                        class=" grid grid-cols-1 gap-4 text-right text-[#031F4B] font-['franklin-gothic-bookregular'] max-w-[580px] justify-items-center">
-                        <p class="text-[#031F4B] font-['franklin-gothic-demiregular'] xl:text-[30px] text-center">
-                            INNOVATION AND QUALITY SERVICE IS THE CORE OF WHAT WE DO
-                        </p>
-                        <p class="xl:text-[20px]">
-                            We constantly stay abreast of the latest advancements in engineering services, using the
-                            latest tools, equipments and methodologies to deliver efficient and sustainable solutions.
-                        </p>
-                        <p class="xl:text-[20px]">
-                            Our commitment to innovation ensures that we stay ahead of the curve and provide our clients
-                            the output that exceeds expectations.
-                        </p>
-                        <a href="/about-us.html"
-                            class="relative text-center font-['franklin-gothic-demiregular'] text-white bg-[#6497B1] rounded-[20px] xl:text-[25px] xl:w-[312px]">
-                            <span class="absolute inset-y-0 right-0 bg-[#035B96] rounded-[20px] xl:w-[89px]"></span>
-                            <span class="relative">Learn more about <span class="pl-[20px]"></span> RPMI</span>
-                        </a>
-                    </div>
-                    <div
-                        class="grid grid-cols-2 justify-center max-w-[580px] xs:mx-[20px] xs:mx-[20px] xs:max-w-[340px] sm:max-w-[240px] md:max-w-[300px] lg:max-w-[400px]">
-                        <img class="w-[290px] h-[237px] xs:w-[170px] xs:h-[170px] sm:w-[120px] sm:h-[120px] md:w-[150px] md:h-[150px] lg:w-[200px] lg:h-[200px] object-cover"
-                            src="/images/pictures/homepage-img2.jpeg" alt="Home Page IMG-1">
-                        <img class="w-[290px] h-[237px] xs:w-[170px] xs:h-[170px] sm:w-[120px] sm:h-[120px] md:w-[150px] md:h-[150px] lg:w-[200px] lg:h-[200px] object-cover"
-                            src="/images/pictures/homepage-img3.jpeg" alt="Home Page IMG-2">
-                        <img class="w-[290px] h-[237px] xs:w-[170px] xs:h-[170px] sm:w-[120px] sm:h-[120px] md:w-[150px] md:h-[150px] lg:w-[200px] lg:h-[200px] object-cover"
-                            src="/images/pictures/homepage-img4.jpeg" alt="Home Page IMG-3">
-                        <img class="w-[290px] h-[237px] xs:w-[170px] xs:h-[170px] sm:w-[120px] sm:h-[120px] md:w-[150px] md:h-[150px] lg:w-[200px] lg:h-[200px] object-cover"
-                            src="/images/pictures/homepage-img5.jpeg" alt="Home Page IMG-4">
-                    </div>
-
+                <!-- xs:mx-[20px] xs:mx-[20px] xs:max-w-[340px] sm:max-w-[240px] md:max-w-[300px] lg:max-w-[400px] -->
+                <div 
+                    class="hidden lg:grid lg:grid-cols-2 justify-center">
+                    <img class="w-full h-[215px] lg:h-[275px] object-cover "
+                        src="/images/pictures/homepage-img2.jpeg" alt="Home Page IMG-1">
+                    <img class="w-full h-[215px] lg:h-[275px] object-cover "
+                        src="/images/pictures/homepage-img3.jpeg" alt="Home Page IMG-2">
+                    <img class="w-full h-[215px] lg:h-[275px] object-cover "
+                        src="/images/pictures/homepage-img4.jpeg" alt="Home Page IMG-3">
+                    <img class="w-full h-[215px] lg:h-[275px] object-cover "
+                        src="/images/pictures/homepage-img5.jpeg" alt="Home Page IMG-4">
                 </div>
             </div>
         </section>
-
-        <!-- <section>
-            <div class="text-center max-w-[1140px] font-['franklin-gothic-demiregular']">
-                <h2 class="text-[#035B96] text-[30px] mx-auto m-[30px] xs:text-[10px] xs:mx-[20px] sm:text-[15px] sm:mx-[50px] md:text-[20px] md:mx-[20px] lg:text-[27px] lg:m-[50px] lg:mx-[25px] xl:text-[30px] xl:m-[50px] xl:mx-auto">
-                    ONE OF THE LEADING CONTRACTORS IN LEYTE PROVIDING UNPARALLELED MECHANICAL, CIVIL, STRUCTURAL, ELECTRICAL AND INSTRUMENTATION SERVICES ACROSS VARIOUS INDUSTRIES
-                </h2>
-                <div class="flex flex-wrap justify-center max-w-[1140px] space-x-[60px] xs:space-x-0 xs:flex-col-reverse sm:space-x-[15px] md:space-x-[30px] lg:space-x-[45px]">
-                    <div class="flex-none max-w-[580px] xs:max-w-[380px] sm:max-w-[250px] sm:max-w-[250px] md:max-w-[300px] lg:max-w-[400px]">
-                        <p class="text-center text-[30px] text-[#031F4B] font-['franklin-gothic-demiregular'] mb-[10px] xs:mx-[20px] xs:text-[11px] sm:text-[15px] md:text-[18px] lg:text-[25px]">
-                            INNOVATION AND QUALITY SERVICE IS THE CORE OF WHAT WE DO
-                        </p>
-                        <p class="text-center text-[20px] text-[#031F4B] font-['franklin-gothic-bookregular'] mb-[10px] xs:mx-[20px] xs:text-[10px] sm:text-[11px] sm:text-[11px] md:text-[15px] lg:text-[20px]">
-                            We constantly stay abreast of the latest advancements in engineering services, using the latest tools, equipments and methodologies to deliver efficient and sustainable solutions.
-                        </p>
-                        <p class="text-center text-[20px] text-[#031F4B] font-['franklin-gothic-bookregular'] mb-[10px] xs:mx-[20px] xs:text-[10px] sm:text-[11px] md:text-[15px] lg:text-[20px]">
-                            Our commitment to innovation ensures that we stay ahead of the curve and provide our clients the output that exceeds expectations.
-                        </p>
-                        <div class="text-center text-[30px] text-[#ffffff] font-['franklin-gothic-demiregular'] xs:text-[10px] sm:text-[9px] md:text-[12px] lg:text-[18px]">
-                            <a href="" class="bg-[#6497B1] py-[10px] pl-[15px] rounded-[15px] md:py-[6px] md:pl-[10px] lg:py-[8px] lg:pl-[12px]">Learn more about 
-                                <span class=" inline-block bg-[#035B96] py-[7px] px-[15px] rounded-[15px] md:py-[5px] md:px-[11px] lg:py-[6x] lg:px-[13px]">RPMI</span></a>   
-                        </div> 
-                    </div>
-                    <div class="flex-none">
-                        <div class="grid grid-cols-2 justify-center max-w-[580px] xs:mx-[20px] xs:mx-[20px] xs:max-w-[340px] sm:max-w-[240px] md:max-w-[300px] lg:max-w-[400px]">
-                            <img class="w-[290px] h-[237px] xs:w-[170px] xs:h-[170px] sm:w-[120px] sm:h-[120px] md:w-[150px] md:h-[150px] lg:w-[200px] lg:h-[200px] object-cover" src="/images/pictures/homepage-img2.jpeg" alt="Home Page IMG-1">
-                            <img class="w-[290px] h-[237px] xs:w-[170px] xs:h-[170px] sm:w-[120px] sm:h-[120px] md:w-[150px] md:h-[150px] lg:w-[200px] lg:h-[200px] object-cover" src="/images/pictures/homepage-img3.jpeg" alt="Home Page IMG-2">
-                            <img class="w-[290px] h-[237px] xs:w-[170px] xs:h-[170px] sm:w-[120px] sm:h-[120px] md:w-[150px] md:h-[150px] lg:w-[200px] lg:h-[200px] object-cover" src="/images/pictures/homepage-img4.jpeg" alt="Home Page IMG-3">
-                            <img class="w-[290px] h-[237px] xs:w-[170px] xs:h-[170px] sm:w-[120px] sm:h-[120px] md:w-[150px] md:h-[150px] lg:w-[200px] lg:h-[200px] object-cover" src="/images/pictures/homepage-img5.jpeg" alt="Home Page IMG-4">
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section> -->
 
         <!-- services offer -->
         <section>
@@ -307,7 +259,7 @@
                         <img src="/images/pictures/featured-img.jpg" alt="Seaoil Featured IMG"
                             class="object-cover w-full h-full block">
                         <div
-                            class="text-left px-[10px] text-[25px] text-white absolute bottom-0 py-2 w-full bg-[#035B96]/80 xs:text-[10px] sm:text-[12px] md:text-[15px]">
+                            class="text-left px-[10px] text-[10px] lg:text-[25px] text-white absolute bottom-0 py-2 w-full bg-[#035B96]/80 xs:text-[10px] sm:text-[12px] md:text-[15px]">
                             <p>Client: Seaoil</p>
                             <p>Fabrication and Installation of Receiving and Service Pipelines for the 4x100kl Tanks</p>
                         </div>
@@ -317,7 +269,7 @@
                         <img src="/images/pictures/featured-img1.png" alt="Mechanical Works IMG"
                             class="object-cover w-full h-full block">
                         <div
-                            class="text-left px-[10px] text-[25px] text-white absolute bottom-0 py-2 w-full bg-[#035B96]/80 xs:text-[10px] sm:text-[12px] md:text-[15px]">
+                            class="text-left px-[10px] text-[10px] lg:text-[25px] text-white absolute bottom-0 py-2 w-full bg-[#035B96]/80 xs:text-[10px] sm:text-[12px] md:text-[15px]">
                             <p>Client: PASAR</p>
                             <p>Installation of New DT1, FAT1 & PA Acid Coolers</p>
                         </div>
@@ -327,20 +279,18 @@
                         <img src="/images/pictures/featured-img2.png" alt="Mechanical Works IMG"
                             class="object-cover w-full h-full block">
                         <div
-                            class="text-left px-[10px] text-[25px] text-white absolute bottom-0 py-2 w-full bg-[#035B96]/80 xs:text-[10px] sm:text-[12px] md:text-[15px]">
+                            class="text-left px-[10px] text-[10px] lg:text-[25px] text-white absolute bottom-0 py-2 w-full bg-[#035B96]/80 xs:text-[10px] sm:text-[12px] md:text-[15px]">
                             <p>Client: PASAR</p>
                             <p>Installation of Structural Steel at MCC</p>
                         </div>
                     </div>
-                </div>
-                <div
-                    class="text-center text-[30px] text-[#ffffff] font-['franklin-gothic-demiregular'] xs:text-[10px] sm:text-[9px] md:text-[12px] lg:text-[18px]">
-                    <a href=""
-                        class="bg-[#6497B1] py-[10px] pl-[15px] rounded-[15px] md:py-[6px] md:pl-[10px] lg:py-[8px] lg:pl-[12px]">See
-                        our Featured
+                </div>               
+                <a href="/projects.html"
+                        class="w-fit flex items-center mx-auto space-x-2 text-[15px] lg:text-[18px] font-['franklin-gothic-demiregular'] bg-[#6497B1] rounded-[15px] pl-3">
+                        <span class="flex-1 text-left">See our Featured</span>
                         <span
-                            class=" inline-block bg-[#035B96] py-[7px] px-[15px] rounded-[15px] md:py-[5px] md:px-[11px] lg:py-[6x] lg:px-[13px]">Projects</span></a>
-                </div>
+                            class="flex-none uppercase text-white bg-[#035B96] rounded-[15px] py-1 px-3">Projects</span>
+                </a>     
             </div>
         </section>
 

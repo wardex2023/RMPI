@@ -9,11 +9,41 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Our Services</title>
+    <title>Our Projects</title>
   </head>
   <body>
+    
     <header>
-      
+        <!-- Navbar -->
+        <nav class="relative z-10 w-full xl:max-w-[1160px] xl:mx-auto xl:py-5">
+            <div class="flex items-center justify-between md:p-3 md:mx-10">
+                <img class=" flex-none h-[72px]" src="/images/logos/rpmi-logo.png" alt="RPMI Logo"/>
+                <div class="hidden text-[20px] font-['ABeeZee'] text-white bg-[#6497B1] rounded-[15px] md:flex md:order-last">
+                    <a href="/" class="p-2 rounded-[15px] md:justify-end hover:bg-[#035B96] hover:text-white">Home</a>
+                    <a href="/about-us.html" class="p-2 rounded-[15px] md:justify-end hover:bg-[#035B96] hover:text-white">About Us</a>
+                    <a href="/services.html" class="p-2 rounded-[15px] md:justify-end hover:bg-[#035B96] hover:text-white">Services</a>
+                    <a href="/projects.html" class="p-2 rounded-[15px] md:justify-end hover:bg-[#035B96] hover:text-white">Projects</a>
+                    <a href="/careers.html" class="p-2 rounded-[15px] md:justify-end hover:bg-[#035B96] hover:text-white">Careers</a>
+                    <a href="/contact-us.html" class="active p-2 rounded-[15px] md:justify-end hover:bg-[#035B96] hover:text-white">Contact Us</a>
+                </div>
+                <!-- Hamburger Icon -->
+                <!-- <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span> -->
+                <!-- </button>                -->
+            </div>
+            <!-- <div class="md:hidden">
+                <div id="menu" class="absolute flex-col items-center hidden self-end py-8 mt-10 -y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">                  
+                    <a href="home.html" class="hover:text-white">Home</a>
+                    <a href="about-us.html" class="hover:text-white">About Us</a>
+                    <a href="services.html" class="hover:text-white">Services</a>
+                    <a href="projects.html" class="hover:text-white">Projects</a>
+                    <a href="careers.html" class="hover:text-white">Careers</a>
+                    <a href="contact-us.html" class="hover:text-white">Contact Us</a>
+                </div>
+              </div> -->
+        </nav>
     </header>
 
     <main>
@@ -29,251 +59,378 @@
         </section>
 
         <section>
-            <h2 class="text-center text-[#031F4B] font-['franklin-gothic-demiregular'] m-10 md:m-20 xl:text-[40px]">
+            <h2 class="text-center text-[#031F4B] font-['franklin-gothic-demiregular'] m-10 lg:m-20 text-[30px] md:text-[40px]">
                 Designed to get Results
             </h2> 
-            <div class="text-white grid gap-20 grid-cols-1 w">          
+            <div class="text-white grid gap-4 lg:p-10 lg:gap-20 grid-cols-1">          
                     <!-- Mechanical Works -->
-                    <div class="bg-[#035B96] font-['franklin-gothic-demiregular'] w-[1160px] h-[598px] mx-auto">
-                        <div class="p-10">
-                            <h3 class="text-[#A8C5DB] text-[20px] md:text-[25px] lg:text-[40px]">
+                    <div class="bg-[#035B96] font-['franklin-gothic-demiregular'] w-full h-full lg:h-[598px] mx-auto lg:w-[1160px]">
+                        <div class="p-2 lg:p-10">
+                            <h3 class="mb-4 text-[#A8C5DB] text-[20px] md:text-[25px] lg:text-[40px]">
                                 <span class="border-b-4 border-slate-300">Mechanical</span> Works
                             </h3>
-                            <div class="px-12 lg:text-[30px]">
+                            <div class="px-2 text-[15px] lg:px-12 lg:text-[30px]">
                                 <p>Project Title: Installation of New DT1, FAT1 & PA Acid Coolers Including ALF-60R Strainer</p>
                                 <p>Client: PASAR</p>
                             </div>
                         </div>
-                        <div class="grid gap-11 md:grid-cols-3">
-                            <img src="/images/pictures/mechanical-img1.png" alt="Mechanical Works IMG-1" class="object-cover w-full md:h-[265px]">
+                        <div class="grid gap-11 py-8 md:grid-cols-3">
+                            <img src="/images/pictures/mechanical-img1.png" alt="Mechanical Works IMG-1" class="object-cover w-full h-[150px] md:h-[265px]">
                             <img src="/images/pictures/mechanical-img2.png" alt="Mechanical Works IMG-2" class="object-cover w-full md:h-[265px]  hidden md:grid">
                             <img src="/images/pictures/mechanical-img3.png" alt="Mechanical Works IMG-3" class="object-cover w-full md:h-[265px]  hidden md:grid">
                         </div>
                     </div>
     
                     <!-- Civil Works -->
-                    <div class="bg-[#035B96] font-['franklin-gothic-demiregular'] w-[1160px] h-[598px] mx-auto">
-                        <div class="p-10">
-                            <h3 class="text-[#A8C5DB] text-[20px] md:text-[25px] lg:text-[40px]">
+                    <div class="bg-[#035B96] font-['franklin-gothic-demiregular'] w-full h-full h-[598px] mx-auto lg:w-[1160px]">
+                        <div class="p-2 lg:p-10">
+                            <h3 class="mb-4 text-[#A8C5DB] text-[20px] md:text-[25px] lg:text-[40px]">
                                 <span class="border-b-4 border-slate-300">Civil</span> Works
                             </h3>
-                            <div class="px-12 lg:text-[30px]">
+                            <div class="px-2 text-[15px] lg:px-12 lg:text-[30px]">
                                 <p>Project Title: Pumptank Foundation and Basement</p>
                                 <p>Client: PASAR</p>
                             </div>
                         </div>
-                        <div class="grid gap-11 md:grid-cols-3">
-                            <img src="/images/pictures/civil-img1.jpeg" alt="Civil Works IMG-1" class="object-cover w-full md:h-[265px]">
+                        <div class="grid gap-11 py-8 md:grid-cols-3">
+                            <img src="/images/pictures/civil-img1.jpeg" alt="Civil Works IMG-1" class="object-cover w-full h-[150px] md:h-[265px]">
                             <img src="/images/pictures/civil-img2.jpeg" alt="Civil Works IMG-2" class="object-cover w-full md:h-[265px]  hidden md:grid">
                             <img src="/images/pictures/civil-img3.jpeg" alt="Civil Works IMG-3" class="object-cover w-full md:h-[265px]  hidden md:grid">
                         </div>
                     </div>
     
                     <!-- Structural Works -->
-                    <div class="bg-[#035B96] font-['franklin-gothic-demiregular'] w-[1160px] h-[598px] mx-auto">
-                        <div class="p-10">
-                            <h3 class="text-[#A8C5DB] text-[20px] md:text-[25px] lg:text-[40px]">
+                    <div class="bg-[#035B96] font-['franklin-gothic-demiregular'] w-full h-full h-[598px] mx-auto lg:w-[1160px]">
+                        <div class="p-2 lg:p-10">
+                            <h3 class="mb-4 text-[#A8C5DB] text-[20px] md:text-[25px] lg:text-[40px]">
                                 <span class="border-b-4 border-slate-300">Structural</span> Works
                             </h3>
-                            <div class="px-12 lg:text-[30px]">
+                            <div class="px-2 text-[15px] lg:px-12 lg:text-[30px]">
                                 <p>Project Title: Installation of Structural Steel at MCC</p>
                                 <p>Client: PASAR</p>
                             </div>
                         </div>
-                        <div class="grid gap-11 md:grid-cols-3">
-                                <img src="/images/pictures/structural-img.jpeg" alt="Structural Works IMG-1" class="object-cover w-full md:h-[265px]">
+                        <div class="grid gap-11 py-8 md:grid-cols-3">
+                                <img src="/images/pictures/structural-img.jpeg" alt="Structural Works IMG-1" class="object-cover w-full h-[150px] md:h-[265px]">
                                 <img src="/images/pictures/structural-img1.jpeg" alt="Structural Works IMG-2" class="object-cover w-full md:h-[265px]  hidden md:grid">
                                 <img src="/images/pictures/structural-img2.jpeg" alt="Structural Works IMG-3" class="object-cover w-full md:h-[265px]  hidden md:grid">
                         </div>
                     </div>
     
                     <!-- Electrical and Instrumentation Works -->
-                    <div class="bg-[#035B96] font-['franklin-gothic-demiregular'] w-[1160px] h-[598px] mx-auto">
-                        <div class="p-10">
-                            <h3 class="text-[#A8C5DB] text-[20px] md:text-[25px] lg:text-[40px]">
+                    <div class="bg-[#035B96] font-['franklin-gothic-demiregular'] w-full h-full h-[598px] mx-auto lg:w-[1160px]">
+                        <div class="p-2 lg:p-10">
+                            <h3 class="mb-4 text-[#A8C5DB] text-[20px] md:text-[25px] lg:text-[40px]">
                                 <span class="border-b-4 border-slate-300">Electrical</span> and Instrumentation Works
                             </h3>
-                            <div class="px-12 lg:text-[30px]">
+                            <div class="px-2 text-[15px] lg:px-12 lg:text-[30px]">
                                 <p>Project Title: </p>
                                 <p>Client:</p>
                             </div>
                         </div>
-                        <div class="grid gap-11 md:grid-cols-3">
-                                <img src="/images/pictures/no-picture-available-icon-1.jpg" alt="Electrical and Instrumentation Works IMG-1" class="object-cover w-full md:h-[265px]">
+                        <div class="grid gap-11 py-8 md:grid-cols-3">
+                                <img src="/images/pictures/no-picture-available-icon-1.jpg" alt="Electrical and Instrumentation Works IMG-1" class="object-cover w-full h-[150px] md:h-[265px]">
                                 <img src="/images/pictures/no-picture-available-icon-1.jpg" alt="Electrical and Instrumentation Works IMG-2" class="object-cover w-full md:h-[265px]  hidden md:grid">
                                 <img src="/images/pictures/no-picture-available-icon-1.jpg" alt="Electrical and Instrumentation Works IMG-3" class="object-cover w-full md:h-[265px]  hidden md:grid">
                         </div>
                     </div>
     
                     <!-- Scaffolding Supply and Install -->
-                    <div class="bg-[#035B96] font-['franklin-gothic-demiregular'] w-[1160px] h-[598px] mx-auto">
-                        <div class="p-10">
-                            <h3 class="text-[#A8C5DB] text-[20px] md:text-[25px] lg:text-[40px]">
+                    <div class="bg-[#035B96] font-['franklin-gothic-demiregular'] w-full h-full h-[598px] mx-auto lg:w-[1160px]">
+                        <div class="p-2 lg:p-10">
+                            <h3 class="mb-4 text-[#A8C5DB] text-[20px] md:text-[25px] lg:text-[40px]">
                                 <span class="border-b-4 border-slate-300">Scaffolding</span> Supply and Install
                             </h3>
-                            <div class="px-12 lg:text-[30px]">
+                            <div class="px-2 text-[15px] lg:px-12 lg:text-[30px]">
                                 <p>Project Title: 30 meters Height, Tube and Coupler Type</p>
                                 <p>Client: PASAR</p>
                             </div>
                         </div>
-                        <div class="grid gap-11 md:grid-cols-3">
-                                <img src="/images/pictures/scaffolding-img1.jpeg" alt="Scaffolding Supply and Install IMG-1" class="object-cover w-full md:h-[265px]">
+                        <div class="grid gap-11 py-8 md:grid-cols-3">
+                                <img src="/images/pictures/scaffolding-img1.jpeg" alt="Scaffolding Supply and Install IMG-1" class="object-cover w-full h-[150px] md:h-[265px]">
                                 <img src="/images/pictures/scaffolding-img2.jpeg" alt="Scaffolding Supply and Install IMG-2" class="object-cover w-full md:h-[265px]  hidden md:grid">
                                 <img src="/images/pictures/scaffolding-img3.jpeg" alt="Scaffolding Supply and Install IMG-3" class="object-cover w-full md:h-[265px]  hidden md:grid">
                         </div>
                     </div>
     
                     <!-- Lamination Works -->
-                    <div class="bg-[#035B96] font-['franklin-gothic-demiregular'] w-[1160px] h-[598px] mx-auto">
-                        <div class="p-10">
-                            <h3 class="text-[#A8C5DB] text-[20px] md:text-[25px] lg:text-[40px]">
+                    <div class="bg-[#035B96] font-['franklin-gothic-demiregular'] w-full h-full h-[598px] mx-auto lg:w-[1160px]">
+                        <div class="p-2 lg:p-10">
+                            <h3 class="mb-4 text-[#A8C5DB] text-[20px] md:text-[25px] lg:text-[40px]">
                                 <span class="border-b-4 border-slate-300">Lamination</span> Works
                             </h3>
-                            <div class="px-12 lg:text-[30px]">
+                            <div class="px-2 text-[15px] lg:px-12 lg:text-[30px]">
                                 <p>Project Title: Installation of Fiber Reinforced Plastic</p>
                                 <p>Client: PASAR</p>
                             </div>
                         </div>
-                        <div class="grid gap-11 md:grid-cols-3">
-                                <img src="/images/pictures/lamination-img.jpeg" alt="Lamination Works IMG-1" class="object-cover w-full md:h-[265px]">
+                        <div class="grid gap-11 py-8 md:grid-cols-3">
+                                <img src="/images/pictures/lamination-img.jpeg" alt="Lamination Works IMG-1" class="object-cover w-full h-[150px] md:h-[265px]">
                                 <img src="/images/pictures/lamination-img1.jpeg" alt="Lamination Works IMG-2" class="object-cover w-full md:h-[265px]  hidden md:grid">
                                 <img src="/images/pictures/lamination-img2.jpeg" alt="Lamination Works IMG-3" class="object-cover w-full md:h-[265px]  hidden md:grid">
                         </div>
                     </div>
                     
                     <!-- Coating / Painting Works (including Surface Preparations) -->
-                    <div class="bg-[#035B96] font-['franklin-gothic-demiregular'] w-[1160px] h-[598px] mx-auto">
-                        <div class="p-10">
-                            <h3 class="text-[#A8C5DB] text-[20px] md:text-[25px] lg:text-[40px]">
+                    <div class="bg-[#035B96] font-['franklin-gothic-demiregular'] w-full h-full h-[598px] mx-auto lg:w-[1160px]">
+                        <div class="p-2 lg:p-10">
+                            <h3 class="mb-4 text-[#A8C5DB] text-[20px] md:text-[25px] lg:text-[40px]">
                                 <span class="border-b-4 border-slate-300">Coating</span> / Painting Works (including Surface Preparations)
                             </h3>
-                            <div class="px-12 lg:text-[30px]">
+                            <div class="px-2 text-[15px] lg:px-12 lg:text-[30px]">
                                 <p>Project Title: Recoating Painting 4x100kl Diesel Tank</p>
                                 <p>Client: PASAR</p>
                             </div>
                         </div>
-                        <div class="grid gap-11 md:grid-cols-3">
-                            <img src="/images/pictures/coating-img1.jpeg" alt="Coating / Painting Works IMG-1" class="object-cover w-full md:h-[265px]">
+                        <div class="grid gap-11 py-8 md:grid-cols-3">
+                            <img src="/images/pictures/coating-img1.jpeg" alt="Coating / Painting Works IMG-1" class="object-cover w-full h-[150px] md:h-[265px]">
                             <img src="/images/pictures/coating-img2.jpeg" alt="Coating / Painting Works IMG-2" class="object-cover w-full md:h-[265px] hidden md:grid">
                             <img src="/images/pictures/coating-img.jpeg" alt="Coating / Painting Works IMG-3" class="object-cover w-full md:h-[265px] hidden md:grid">
                         </div>
                     </div>
     
                     <!-- HDPE Works -->
-                    <div class="bg-[#035B96] font-['franklin-gothic-demiregular'] w-[1160px] h-[598px] mx-auto">
-                        <div class="p-10">
-                            <h3 class="text-[#A8C5DB] text-[20px] md:text-[25px] lg:text-[40px]">
+                    <div class="bg-[#035B96] font-['franklin-gothic-demiregular'] w-full h-full h-[598px] mx-auto lg:w-[1160px]">
+                        <div class="p-2 lg:p-10">
+                            <h3 class="mb-4 text-[#A8C5DB] text-[20px] md:text-[25px] lg:text-[40px]">
                                 <span class="border-b-4 border-slate-300">HDPE</span> Works
                             </h3>
-                            <div class="px-12 lg:text-[30px]">
+                            <div class="px-2 text-[15px] lg:px-12 lg:text-[30px]">
                                 <p>Project Title: BP-8 Recycling Line: 1.5Kms Piping</p>
                                 <p>Client: PASAR</p>
                             </div>
                         </div>
-                        <div class="grid gap-11 md:grid-cols-3">
-                                <img src="/images/pictures/hdpe-img1.jpeg" alt="HDPE Works IMG-1" class="object-cover w-full md:h-[265px]">
+                        <div class="grid gap-11 py-8 md:grid-cols-3">
+                                <img src="/images/pictures/hdpe-img1.jpeg" alt="HDPE Works IMG-1" class="object-cover w-full h-[150px] md:h-[265px]">
                                 <img src="/images/pictures/hdpe-img2.jpeg" alt="HDPE Works IMG-2" class="object-cover w-full md:h-[265px]  hidden md:grid">
                                 <img src="/images/pictures/hdpe-img3.jpeg" alt="HDPE Works IMG-3" class="object-cover w-full md:h-[265px]  hidden md:grid">
                         </div>
                     </div>
     
                     <!-- Cladding and Insulation Works -->
-                    <div class="bg-[#035B96] font-['franklin-gothic-demiregular'] w-[1160px] h-[598px] mx-auto">
-                        <div class="p-10">
-                            <h3 class="text-[#A8C5DB] text-[20px] md:text-[25px] lg:text-[40px]">
+                    <div class="bg-[#035B96] font-['franklin-gothic-demiregular'] w-full h-full h-[598px] mx-auto lg:w-[1160px]">
+                        <div class="p-2 lg:p-10">
+                            <h3 class="mb-4 text-[#A8C5DB] text-[20px] md:text-[25px] lg:text-[40px]">
                                 <span class="border-b-4 border-slate-300">Cladding</span> and Insulation Works
                             </h3>
-                            <div class="px-12 lg:text-[30px]">
+                            <div class="px-2 text-[15px] lg:px-12 lg:text-[30px]">
                                 <p>Project Title: Top Dome Insulation and Cladding Works (with Perlite)</p>
                                 <p>Client: PASAR</p>
                             </div>
                         </div>
-                        <div class="grid gap-11 md:grid-cols-3">
-                                <img src="/images/pictures/projects.jpg" alt="Cladding and Insulation Works IMG-1" class="object-cover w-full md:h-[265px]">
+                        <div class="grid gap-11 py-8 md:grid-cols-3">
+                                <img src="/images/pictures/projects.jpg" alt="Cladding and Insulation Works IMG-1" class="object-cover w-full h-[150px] md:h-[265px]">
                                 <img src="/images/pictures/projects.jpg" alt="Cladding and Insulation Works IMG-2" class="object-cover w-full md:h-[265px]  hidden md:grid">
                                 <img src="/images/pictures/projects.jpg" alt="Cladding and Insulation Works IMG-3" class="object-cover w-full md:h-[265px]  hidden md:grid">
                         </div>
                     </div>
     
                     <!-- Automotive Works -->
-                    <div class="bg-[#035B96] font-['franklin-gothic-demiregular'] w-[1160px] h-[598px] mx-auto">
-                        <div class="p-10">
-                            <h3 class="text-[#A8C5DB] text-[20px] md:text-[25px] lg:text-[40px]">
+                    <div class="bg-[#035B96] font-['franklin-gothic-demiregular'] w-full h-full h-[598px] mx-auto lg:w-[1160px]">
+                        <div class="p-2 lg:p-10">
+                            <h3 class="mb-4 text-[#A8C5DB] text-[20px] md:text-[25px] lg:text-[40px]">
                                 <span class="border-b-4 border-slate-300">Automotive</span> Works
                             </h3>
-                            <div class="px-12 lg:text-[30px]">
+                            <div class="px-2 text-[15px] lg:px-12 lg:text-[30px]">
                                 <p>Project Title: </p>
                                 <p>Client: PASAR</p>
                             </div>
                         </div>
-                        <div class="grid gap-11 md:grid-cols-3">
-                                <img src="/images/pictures/no-picture-available-icon-1.jpg" alt="Automotive Works IMG-1" class="object-cover w-full md:h-[265px]">
+                        <div class="grid gap-11 py-8 md:grid-cols-3">
+                                <img src="/images/pictures/no-picture-available-icon-1.jpg" alt="Automotive Works IMG-1" class="object-cover w-full h-[150px] md:h-[265px]">
                                 <img src="/images/pictures/no-picture-available-icon-1.jpg" alt="Automotive Works IMG-2" class="object-cover w-full md:h-[265px]  hidden md:grid">
                                 <img src="/images/pictures/no-picture-available-icon-1.jpg" alt="Automotive Works IMG-3" class="object-cover w-full md:h-[265px]  hidden md:grid">
                         </div>
                     </div>
     
                     <!-- Fabrication Works -->
-                    <div class="bg-[#035B96] font-['franklin-gothic-demiregular'] w-[1160px] h-[598px] mx-auto">
-                        <div class="p-10">
-                            <h3 class="text-[#A8C5DB] text-[20px] md:text-[25px] lg:text-[40px]">
+                    <div class="bg-[#035B96] font-['franklin-gothic-demiregular'] w-full h-full h-[598px] mx-auto lg:w-[1160px]">
+                        <div class="p-2 lg:p-10">
+                            <h3 class="mb-4 text-[#A8C5DB] text-[20px] md:text-[25px] lg:text-[40px]">
                                 <span class="border-b-4 border-slate-300">Fabrication</span> Works
                             </h3>
-                            <div class="px-12 lg:text-[30px]">
+                            <div class="px-2 text-[15px] lg:px-12 lg:text-[30px]">
                                 <p>Project Title: Fabrication of Dome, Shell and Ducting</p>
                                 <p>Client: PASAR</p>
                             </div>
                         </div>
-                        <div class="grid gap-11 md:grid-cols-3">
-                                <img src="/images/pictures/fabrication-img1.jpeg" alt="Fabrication Works IMG-1" class="object-cover w-full md:h-[265px]">
+                        <div class="grid gap-11 py-8 md:grid-cols-3">
+                                <img src="/images/pictures/fabrication-img1.jpeg" alt="Fabrication Works IMG-1" class="object-cover w-full h-[150px] md:h-[265px]">
                                 <img src="/images/pictures/fabrication-img2.jpeg" alt="Fabrication Works IMG-2" class="object-cover w-full md:h-[265px]  hidden md:grid">
                                 <img src="/images/pictures/fabrication-img3.jpeg" alt="Fabrication Works IMG-3" class="object-cover w-full md:h-[265px]  hidden md:grid">
                         </div>
                     </div>
     
                     <!-- Manpower Supply -->
-                    <div class="bg-[#035B96] font-['franklin-gothic-demiregular'] w-[1160px] h-[598px] mx-auto">
-                        <div class="p-10">
-                            <h3 class="text-[#A8C5DB] text-[20px] md:text-[25px] lg:text-[40px]">
+                    <div class="bg-[#035B96] font-['franklin-gothic-demiregular'] w-full h-full h-[598px] mx-auto lg:w-[1160px]">
+                        <div class="p-2 lg:p-10">
+                            <h3 class="mb-4 text-[#A8C5DB] text-[20px] md:text-[25px] lg:text-[40px]">
                                 <span class="border-b-4 border-slate-300">Manpower</span> Supply
                             </h3>
-                            <div class="px-12 lg:text-[30px]">
+                            <div class="px-2 text-[15px] lg:px-12 lg:text-[30px]">
                                 <p>Project Title: Acid Plant Maintenance</p>
                                 <p>Client: PASAR</p>
                             </div>
                         </div>
-                        <div class="grid gap-11 md:grid-cols-3">
-                                <img src="/images/pictures/projects.jpg" alt="Manpower Supply IMG-1" class="object-cover w-full md:h-[265px]">
+                        <div class="grid gap-11 py-8 md:grid-cols-3">
+                                <img src="/images/pictures/projects.jpg" alt="Manpower Supply IMG-1" class="object-cover w-full h-[150px] md:h-[265px]">
                                 <img src="/images/pictures/projects.jpg" alt="Manpower Supply IMG-2" class="object-cover w-full md:h-[265px]  hidden md:grid">
                                 <img src="/images/pictures/projects.jpg" alt="Manpower Supply IMG-3" class="object-cover w-full md:h-[265px]  hidden md:grid">
                         </div>
                     </div>
     
                     <!-- Glass Supply and Installation -->
-                    <div class="bg-[#035B96] font-['franklin-gothic-demiregular'] w-[1160px] h-[598px] mx-auto">
-                        <div class="p-10">
-                            <h3 class="text-[#A8C5DB] text-[20px] md:text-[25px] lg:text-[40px]">
+                    <div class="bg-[#035B96] font-['franklin-gothic-demiregular'] w-full h-full h-[598px] mx-auto lg:w-[1160px]">
+                        <div class="p-2 lg:p-10">
+                            <h3 class="mb-4 text-[#A8C5DB] text-[20px] md:text-[25px] lg:text-[40px]">
                                 <span class="border-b-4 border-slate-300">Glass</span> Supply and Installation
                             </h3>
-                            <div class="px-12 lg:text-[30px]">
+                            <div class="px-2 text-[15px] lg:px-12 lg:text-[30px]">
                                 <p>Project Title:</p>
                                 <p>Client:</p>
                             </div>
                         </div>
-                        <div class="grid gap-11 md:grid-cols-3">
-                                <img src="/images/pictures/projects.jpg" alt="Glass Supply and Installation IMG-1" class="object-cover w-full md:h-[265px]">
+                        <div class="grid gap-11 py-8 md:grid-cols-3">
+                                <img src="/images/pictures/projects.jpg" alt="Glass Supply and Installation IMG-1" class="object-cover w-full h-[150px] md:h-[265px]">
                                 <img src="/images/pictures/projects.jpg" alt="Glass Supply and Installation IMG-2" class="object-cover w-full md:h-[265px]  hidden md:grid">
                                 <img src="/images/pictures/projects.jpg" alt="Glass Supply and Installation IMG-3" class="object-cover w-full md:h-[265px]  hidden md:grid">
                         </div>
                     </div>
     
-                </div>             
+            </div>             
         </section>
     </main>
 
-    <footer>      
-      
-      <p>© 2023 RP MAPPALA, INCORPORATED. All Rights Reserved</p>
+    <footer>
+        <!-- contact us -->
+        <section>
+            <div class="h-auto py-[20px] bg-gradient-to-t from-[#273D77]">
+                <div class="flex flex-col md:flex-row space-y-6 mx-auto px-4 lg:px-0 max-w-[1200px] md:space-x-6">
+                    <div
+                        class="text-center md:text-left text-[#031F4B] font-['franklin-gothic-bookregular'] md:w-[215px] flex-none">
+                        <img src="/images/logos/rpmi-logo.png" alt="RPMI Logo"
+                            class="items-center mx-auto md:mx-0 mb-[20px]" width="120" height="126">
+                        <h4 class="uppercase mb-8 text-[22px]">Follow us on</h4>
+                        <div class="flex justify-center md:justify-start items-center mb-[20px] space-x-4 -ml-2">
+                            <a href="facebook.com" class="">
+                                <img src="/images/icons/facebook.png" alt="facebook icon" class="w-[24px]">
+                            </a>
+                            <a href="instagram.com" class="">
+                                <img src="/images/icons/instagram.png" alt="instagram icon" class="w-[24px]">
+                            </a>
+                            <a href="twitter.com" class="">
+                                <img src="/images/icons/twitter.png" alt="twitter icon" class="w-[24px]">
+                            </a>
+                            <a href="youtube.com" class="">
+                                <img src="/images/icons/youtube.png" alt="youtube icon" class="w-[24px]">
+                            </a>
+                        </div>
+                        <a href="#"
+                            class="w-fit flex items-center mx-auto md:mx-0 space-x-2 text-xl lg:text-[18px] font-['franklin-gothic-demiregular'] bg-[#6497B1] rounded-[15px] pl-3">
+                            <span class="flex-1 text-left">We Are</span>
+                            <span
+                                class="flex-none uppercase text-white bg-[#035B96] rounded-[15px] py-1 px-3">Hiring</span>
+                        </a>
+                    </div>
+
+                    <div class="flex-1 text-[#031F4B] font-['franklin-gothic-bookregular']">
+                        <h3 class="mb-4 mb-6 text-[22px] text-center">
+                            <span class="uppercase">Contacts</span> and <span class="uppercase">Locations</span>
+                        </h3>
+                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                            <div>
+                                <h4 class="text-[22px] ml-8 mb-4">Main Office</h4>
+                                <ul class="space-y-1">
+                                    <li class="flex items-start space-x-3">
+                                        <img width="20" height="20" src="/images/icons/location.png"
+                                            alt="location icon">
+                                        <span>Purok 1 , Libertad, Isabel, Leyte 6539</span>
+                                    </li>
+                                    <li class="flex items-start space-x-3">
+                                        <img width="20" height="20" src="/images/icons/mail.png" alt="location icon">
+                                        <span>
+                                            <a href="mailto:sales-department@rpmappalainc.com.ph" class="block">
+                                                sales-department@rpmappalainc.com.ph
+                                            </a>
+                                            <a href="mailto:hr-department@rpmappalainc.com.ph" class="block">
+                                                hr-department@rpmappalainc.com.ph
+                                            </a>
+                                        </span>
+                                    </li>
+                                    <li class="flex items-start space-x-3">
+                                        <img width="20" height="20" src="images/icons/contact.png" alt="location icon">
+                                        <tel>(053) 560-3209</tel>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4 class="text-[22px] ml-8 mb-4">Cebu Branch</h4>
+                                <ul class="space-y-1">
+                                    <li class="flex items-start space-x-3">
+                                        <img width="20" height="20" src="/images/icons/location.png"
+                                            alt="location icon">
+                                        <span>B1L2 Merrywood Subdivision Lawaan, Talisay Cebu</span>
+                                    </li>
+                                    <li class="flex items-start space-x-3">
+                                        <img width="20" height="20" src="/images/icons/mail.png" alt="location icon">
+                                        <span>
+                                            <a href="mailto:cebubranch@rpmappalainc.com.ph" class="block">
+                                                cebubranch@rpmappalainc.com.ph
+                                            </a>
+                                        </span>
+                                    </li>
+                                    <li class="flex items-start space-x-3">
+                                        <img width="20" height="20" src="images/icons/contact.png" alt="location icon">
+                                        <tel>032-887-3851</tel>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex-none text-center md:text-left text-[#ffffff] font-['franklin-gothic-bookregular']">
+                        <div class="">
+                            <h4 class="uppercase mb-8 text-[#031F4B] text-[22px]">QUICK LINKS</h4>
+                            <ul>
+                                <li>
+                                    <a href="home.html"
+                                        class="inline-block font-['ABe text-[15px]eZee'] xs:rounded-[15px] hover:bg-[#035B96] hover:-mx-3 md:hover:px-3">Home</a>
+                                </li>
+                                <li>
+                                    <a href="about-us.html"
+                                        class="inline-block font-['ABe text-[15px]eZee'] xs:rounded-[15px] hover:bg-[#035B96] hover:-mx-3 md:hover:px-3">About
+                                        Us</a>
+                                </li>
+                                <li>
+                                    <a href="services.html"
+                                        class="inline-block font-['ABe text-[15px]eZee'] xs:rounded-[15px] hover:bg-[#035B96] hover:-mx-3 md:hover:px-3">
+                                        Services</a>
+                                </li>
+                                <li>
+                                    <a href="projects.html"
+                                        class="inline-block font-['ABe text-[15px]eZee'] xs:rounded-[15px] hover:bg-[#035B96] hover:-mx-3 md:hover:px-3">
+                                        Projects</a>
+                                </li>
+                                <li>
+                                    <a href="careers.html"
+                                        class="inline-block font-['ABe text-[15px]eZee'] xs:rounded-[15px] hover:bg-[#035B96] hover:-mx-3 md:hover:px-3">
+                                        Careers</a>
+                                </li>
+                                <li>
+                                    <a href="contact-us.html"
+                                        class="inline-block font-['ABe text-[15px]eZee'] xs:rounded-[15px] hover:bg-[#035B96] hover:-mx-3 md:hover:px-3">
+                                        Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="text-center text-[#B3CDE0] p-[10px] bg-[#273D77] xs:text-[13px] xs:mx-[30px]">
+            <p>© 2023 RP MAPPALA INCORPORATED. All Rights Reserved</p>
+        </div>
     </footer>
    
   </body>
